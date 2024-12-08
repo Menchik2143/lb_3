@@ -1,0 +1,73 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B3E5FC"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Екранний Ліхтарик"
+        android:textSize="24sp"
+        android:textColor="#01579B"
+        android:layout_gravity="center_horizontal"
+        android:marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F8F6F6"
+        android:text="Білий ліхтарик"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FF5252"
+        android:text=" Червоний ліхтарик" />
+
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#448AFF"
+        android:text="Синій ліхтарик" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text=" Зелений ліхтарик" />
+
+    <Button
+        android:id="@+id/buttonCyan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Ціан ліхтарик" />
+
+    <Button
+        android:id="@+id/buttonGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#BDBDBD"
+        android:text="Світло-сірий ліхтарик" />
+
+    <Button
+        android:id="@+id/buttonMagenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#E040FB"
+        android:text="Магента ліхтарик" />
+</LinearLayout>
